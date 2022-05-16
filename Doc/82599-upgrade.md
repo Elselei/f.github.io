@@ -5,8 +5,8 @@ https://downloadcenter.intel.com/download/23691/Ethernet-Intel-Ethernet-Connecti
 ```
 
 2. 选择linux系统对应的Preboot.tar.gz下载
+![image](https://user-images.githubusercontent.com/19662303/168554709-41878891-d230-4c19-8e8b-99d001b51742.png)
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/26787167/1651731104751-a71a060a-f6bd-4cb3-8ea8-4be6a357b2c5.png#clientId=u4280345e-ce77-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=808&id=ua0e113f1&margin=%5Bobject%20Object%5D&name=image.png&originHeight=808&originWidth=1690&originalType=binary&ratio=1&rotation=0&showTitle=false&size=413724&status=done&style=none&taskId=u33b516fd-5eec-42c0-9040-45efe6c0960&title=&width=1690)
 
 3. 下载文件解压后进入目录拷贝BootIMG.FLB到Linux_x64目录
 ```shell
