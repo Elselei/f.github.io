@@ -35,22 +35,21 @@
 
 7. 判断网卡是否需要刷UEFI,如下所示不需要刷UEFI，如10G网卡只显示PXE或者不显示需要参考第8步刷下固件  
 ```
-./bootutil64e |grep 10GbE
-
-  3   6891D067138C    94:00.0 10GbE   N/A UEFI,PXE Enabled              2.4.45
-  4   6891D067138D    94:00.1 10GbE   N/A UEFI,PXE Enabled              2.4.45
+  ./bootutil64e |grep 10GbE
+  3   6891D067138C    94:00.0 10GbE   N/A UEFI,PXE Enabled   2.4.45
+  4   6891D067138D    94:00.1 10GbE   N/A UEFI,PXE Enabled   2.4.45
 ```
 
-8. 刷入PXE+UEFI设置，根据向导选两次yes即可,因为一块网卡有2个口，输入固件的时候只需要选择其中一个口即可，网口的编号第7步命令可以获取到   
+8. 刷入PXE+UEFI设置，根据向导选两次yes即可,因为一块网卡有2个口，输入固件的时候只需要选择其中一个口即可，网口的编号第7步命令可以获取到  
 ```
   ./bootutil64e -nic=3 -up=pxe+efi -file=BootIMG.FLB
 ```
 
-9. 刷入固件完成后执行命令，显示为"**UEFI,PXE**" 即为刷如固件成功。   
+9. 刷入固件完成后执行命令，显示为"**UEFI,PXE**" 即为刷如固件成功。  
 ```
-./bootutil64e |grep 10GbE
-  3   6891D067138C    94:00.0 10GbE   N/A UEFI,PXE Enabled              2.4.45
-  4   6891D067138D    94:00.1 10GbE   N/A UEFI,PXE Enabled              2.4.45
+  ./bootutil64e |grep 10GbE
+    3   6891D067138C    94:00.0 10GbE   N/A UEFI,PXE Enabled    2.4.45
+    4   6891D067138D    94:00.1 10GbE   N/A UEFI,PXE Enabled    2.4.45
 ```
 
 
