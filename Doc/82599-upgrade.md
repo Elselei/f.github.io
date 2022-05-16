@@ -43,7 +43,7 @@ scp Linux_64.tar.gz root@1.1.1.1/tmp/
   4   6891D067138D    94:00.1 10GbE   N/A UEFI,PXE Enabled              2.4.45
 ```
 
-8. 刷入PXE+UEFI设置，根据向导选两次yes即可,因为一块网卡有2个口，输入固件的时候只需要选择其中一个口即可，网口的编号第7步命令可以获取到
+8. 刷入PXE+UEFI设置，根据向导选两次yes即可,因为一块网卡有2个口，输入固件的时候只需要选择其中一个口即可，网口的编号第7步命令可以获取到 
 ```shell
 ./bootutil64e -nic=3 -up=pxe+efi -file=BootIMG.FLB
 ```
