@@ -1,12 +1,12 @@
 ## Welcome to IPFSDO Pages
 
-You can use the [editor on GitHub](https://github.com/Elselei/f.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You can use the [Return Home](/index) to maintain and preview the content for your website in Markdown files.
 
 
 ### Menu
 
 - Doc
-    - 82599网卡升级固件支持UEFI PXE启动[Link](Doc/82599-upgrade.md)
+    - [82599网卡升级固件支持UEFI PXE启动](Doc/82599-upgrade.md)
 
 ### Support or Contact
 
