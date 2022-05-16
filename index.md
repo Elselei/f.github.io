@@ -1,6 +1,6 @@
 ## Welcome to IPFSDO Pages
 
-You can use the [Return Home](/index) to maintain and preview the content for your website in Markdown files.
+You can use the [Return Home](https://ipfsdo.com) to maintain and preview the content for your website in Markdown files.
 
 
 ### Menu
