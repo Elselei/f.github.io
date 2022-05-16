@@ -1,8 +1,8 @@
 - 获取快照当天日期指向,x-amz-website-redirect-location字段为当天快照指向
 
 
-```
-curl -I https://fil-chain-snapshots-fallback.s3.amazonaws.com/mainnet/minimal_finality_stateroots_latest.car                                                   master untracked
+```shell
+#curl -I https://fil-chain-snapshots-fallback.s3.amazonaws.com/mainnet/minimal_finality_stateroots_latest.car   
 HTTP/1.1 200 OK
 x-amz-id-2: Jtfni2sXCBDaaAX0piqYmFB4It5ADWnFqoDRx65w6NRLYrZFYXlodWU5Y42V1ujjnE0CDRPhS+U=
 x-amz-request-id: 304W3R9FWQ65XGTC
