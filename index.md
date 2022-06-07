@@ -10,7 +10,7 @@ You can use the [Return Home](https://ipfsdo.com) to maintain and preview the co
 
 - Fil
     - [Fil-获取当天指向的快照](Fil/fil-chain-snapshots-fallback.md)
-
+    - [Fil-deamon重新导入快照](Fil/fil-chain-snapshot-import.md)
 
 ### Support or Contact
 
