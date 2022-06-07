@@ -24,7 +24,6 @@ Environment=LOTUS_PATH=/test/.lotus
 - 备份chain数据  
 ```
 #mv /test/.lotus/datastore/chain /test/.lotus/datastore/chain_backup 
-
 #mkdir /test/.lotus/datastore/chain 
 ```
 
