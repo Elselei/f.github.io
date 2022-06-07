@@ -11,34 +11,34 @@ x-amz-website-redirect-location: https://fil-chain-snapshots-fallback.s3.amazona
 ```
 
 - 停止lotus-deamon服务 
-```
+```shell
 #systemctl stop lotus-deamon.service 
 ```
 
 - 获取lotus-deamon PATH 
-```
+```shell
 #cat /etc/systemd/system/lotus-daemon.service |grep PATH 
 Environment=LOTUS_PATH=/test/.lotus 
 ```
 
 - 备份chain数据  
-```
+```shell
 #mv /test/.lotus/datastore/chain /test/.lotus/datastore/chain_backup 
 #mkdir /test/.lotus/datastore/chain 
 ```
 
 - 导入快照,直到完成为止 
-```
+```shell
 #lotus daemon --import-snapshot minimal_finality_stateroots_1875840_2022-06-07_06-00-00.car --halt-after-import 
 ```
 
 - 启动lotus-deamon服务 
-```
+```shell
 #systemctl start lotus-deamon.service 
 ```
 
 - 检查sync状态,直到diff为0即可 
-```
+```shell
 #lotus sync wait 
 Worker: 0; Base: 0; Target: 0 (diff: 0)
 State: idle; Current Epoch: 0; Todo: 0
